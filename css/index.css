@@ -9,6 +9,12 @@ body{
     color: #333;
 }
 
+.border-bottom{
+    background-color: #d38b8b;
+    color: white;
+}
+
+
 .titulo-retos {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -32,10 +38,12 @@ body{
 .container-fluid1 {
     padding-top: 20px;
     padding-bottom: 20px;
+    color: white;
+    background-color: #d38b8b;
 }
 
 .accordion-button {
-    background-color: #e9c9cd; 
+    background-color: #ffbfb7; 
     color: rgb(0, 0, 0); 
 }
 

@@ -13,6 +13,11 @@ body {
     overflow-x: hidden; /* evita el scroll horizontal */
 }
 
+.border-bottom{
+    background-color: rgb(5, 104, 233);
+    color: white;
+}
+
 section {
     margin: 50px;
     margin-top: 120px;
@@ -30,6 +35,8 @@ section {
 .container-fluid1 {
     padding-top: 20px;
     padding-bottom: 20px;
+    color: white;
+    background-color: rgb(5, 104, 233);
 }
 
 footer {
