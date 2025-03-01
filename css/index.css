@@ -50,6 +50,10 @@ html, body {
     flex-direction: column;
 }
 
+.espacio {
+    padding: 120px 0;
+}
+
 #accordion {
     flex-grow: 1;
 }
