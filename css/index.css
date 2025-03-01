@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #333;
+}
+
+.titulo-retos {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #333;
+}
+
+.accordion-button {
+    text-transform: uppercase;
+
+}
+
+
+.fondo1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #333;
+    background-color: #f1f1f1;
+}
+
+.container-fluid1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.accordion-button {
+    background-color: #e1cbff; /* Azul */
+    color: white; /* Texto blanco */
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #d2bfff; /* Azul más oscuro cuando está expandido */
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#accordion {
+    flex-grow: 1;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
