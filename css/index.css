@@ -18,7 +18,6 @@ body{
 
 .accordion-button {
     text-transform: uppercase;
-
 }
 
 
@@ -36,12 +35,12 @@ body{
 }
 
 .accordion-button {
-    background-color: #e1cbff; /* Azul */
-    color: white; /* Texto blanco */
+    background-color: #e9c9cd; 
+    color: rgb(0, 0, 0); 
 }
 
 .accordion-button:not(.collapsed) {
-    background-color: #d2bfff; /* Azul más oscuro cuando está expandido */
+    background-color: #d38b8b; 
     color: white;
 }
 
@@ -53,6 +52,11 @@ html, body {
 
 #accordion {
     flex-grow: 1;
+}
+
+.img-fluid{
+    width: 600px;
+    height: auto; 
 }
 
 footer {
