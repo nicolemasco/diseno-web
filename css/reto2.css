@@ -15,6 +15,11 @@ html, body {
     flex-direction: column;
 }
 
+.border-bottom{
+    background-color: rgb(24, 152, 142);
+    color: white;
+}
+
 .seccion2 .tituloSeccion2 {
     padding-top: 25px;
     padding-bottom: 45px;
@@ -38,6 +43,7 @@ html, body {
 }
 
 
+
 .fondo1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -49,6 +55,8 @@ html, body {
 .container-fluid1 {
     padding-top: 20px;
     padding-bottom: 20px;
+    color: white;
+    background-color: rgb(24, 152, 142);
 }
 
 footer {
