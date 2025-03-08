@@ -6,7 +6,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
-    color: #333;
+
 }
 
 html, body {
@@ -15,21 +15,65 @@ html, body {
     flex-direction: column;
 }
 
+.border-bottom{
+    background-color: rgb(37, 118, 132);
+    color: white;
+}
+
+.hero-banner {
+    background-position: center;
+    padding: 50px;
+    color: rgb(0, 0, 0);
+}
+
+#articulo1{
+    background-color: rgb(231, 231, 231);
+    padding: 80px 40px;
+}
+
+.hero-banner h2 {
+    font-weight: bold;
+}
+
+
+#articulo{
+    width: 400px;
+    width: 80%; 
+    margin: 0 auto;
+}
+
+
+.card img {
+    width: 100%;  
+    object-fit: cover; 
+}
+
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
 .fondo1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 2rem;
-    color: #333;
+    color: #000000;
     background-color: #f1f1f1;
+}
+
+.card {
+    border: none;
+    width: 400px;
 }
 
 .container-fluid1 {
     padding-top: 20px;
     padding-bottom: 20px;
+    color: white;
+    background-color: rgb(37, 118, 132);
 }
 
 footer {
-    position: fixed;
     width: 100%;
+    z-index: 3; 
     bottom: 0;
 }

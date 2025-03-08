@@ -15,17 +15,79 @@ html, body {
     flex-direction: column;
 }
 
+
+.border-bottom{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+
 .fondo1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 2rem;
     color: #333;
-    background-color: #f1f1f1;
+}
+
+.banner {
+    height: 100vh;
+    background: url('../imagenes/space.jpg') center/cover no-repeat, rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay; 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.descripcion {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+button{
+    margin: 10px;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0030cd;
+}
+
+.btn-outline-light{
+    font-size: 1.2rem;
+    border: 2px solid;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .container-fluid1 {
     padding-top: 20px;
     padding-bottom: 20px;
+    color: white;
+    background-color: rgb(0, 0, 0);
 }
 
 footer {
